@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background-image: url("pexels-elti-meshau-333850.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    background:linear-gradient(rgba(54, 24, 24, 0.381),rgba(0, 0, 0, 0.278));
+    color: white;
+    width: 100%;
+    border-bottom: 1px solid rgb(70, 2, 2);
+    box-shadow: 0px 0px 10px rgb(151, 6, 6);
+}
+header nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+ header span{
+    color: #9d1b1be1;
+    font-size: 32px;
+    margin-top: 10px;
+}
+ul li{
+    justify-content: center;
+    display: inline;
+}
+ul li a{
+    color: #ffe9e9;
+    text-decoration: none;
+    font-size: 20px;
+    margin-inline: 10px;
+    font-weight: 700;
+    transition: 0.4s;
+}
+ul li a:hover{
+   color: rgba(192, 92, 92, 0.502); 
+}
+.profile img{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.image_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+main img{
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);;
+}
+main .word{
+    margin-top: 10px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    background-color: #2b03039e;
+}
